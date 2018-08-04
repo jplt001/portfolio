@@ -1,0 +1,24 @@
+html body           { margin: 0; padding: 0; font-family: 'Raleway', sans-serif; text-rendering: geometricPrecision; }
+body                { background: #1f1f1f; width: 100%; height: 100%; position: relative; }
+small               { font-size: 23px; color: rgb(255, 255, 255); }
+h1, h2, h3, h4, h5  { color: coral; }
+
+
+/* Custom classes */
+.container          { display: flex; }
+.navigation         { list-style: none; padding: 0; margin: 0; text-align: center; color: white; font-size: 1em; }
+ul.navigation li    { width: 100%; font-size: 20px; margin-top: 1em; cursor: pointer; }
+ul.navigation li:hover { background: red; }
+/* ul.navigation li a  {  } */
+/* div.navigation ul li { font-size: 1em; } */
+/* div.navigation ul li a i    { color: white;} */
+div.nav-col         { max-width: 3%;  background: coral; height: 100vh; width: 3%; }
+
+.logo               { width: 41px; height: 40px; background: rgb(75, 75, 75); }
+
+
+div.loading         { position: absolute; top: 0; left: 0; background: coral; width: 100%; height: 100%;  }
+div.loading i       { color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+div.contents        { width: 97%; background: rgb(177, 87, 55); right: 0; }
+.my-name            { color: white; top: 50%; left: 50%;  }
+.my-name h1         { color: white; top: 50%; left: 50%; position: absolute; transform: translate(-50%, -50%); font-family: 'Lobster', cursive;  }
